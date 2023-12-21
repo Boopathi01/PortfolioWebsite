@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+<nav>
+    <img src="image/logo2.png.jpg" class="logo">
+    <ul id="sidemenu()">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Projects</a></li>
+        <li><a href="#portfolio">Acheivements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-house" onclick="openmenu()"></i>
+</nav>
+       <div class="header-text"> 
+        <p>Personal Website</p>
+        <h1>Hi,I'm <span>Boopathi</span>From India</h1>
+       </div>
+        </div>
+    </div>
+    <!-----------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/about1.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Boopathi from India.I'm currently pursing bachelor's degree in Computer Science and Engineering with 8 CGPA.I'm looking for a job which test my knowlegde and improve my position in the competitive world </p>
+             <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Strengths</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Java</span><br>Intermediate</li>
+                    <li><span>HTML and CSS</span><br>Intermediate</li>
+                    <li><span>Javascript</span><br>Beginner</li>
+                    <li><span>MySQL</span><br>Intermediate</li>
+
+                </ul>
+             </div>
+             
+             <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>B.E(CSE) - 2024</span><br>CGPA:8.03</li>
+                    <li><span>HSC - 2020</span><br>66.5%</li>
+                    <li><span>SSLC -2018</span><br>94.6%</li>
+                </ul>
+             </div>
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Good Communication</span><br></li>
+                    <li><span>Time Management</span><br></li>
+                    <li><span>Self-Learning</span><br></li>
+
+                </ul>
+             </div>
+                </div>
+            </div> 
+
+        </div>
+    </div>
+    <!-------------services/projects------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titlle">My Projects</h1>
+            <div class="services-list">
+                <div>
+                <!--------    <i class="fas fa-code"></i>-------------->
+                    <h2>Student Result Management</h2>
+                    <p>This contains details of the student such as Name,Register Number, Address,Marks and also declare result. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                   <!------ <i class="fas fa-crop-alt"></i>------>
+                    <h2>Digital Clock</h2>
+                    <p>This is a webpage that contains the date and time.We also set Alarm.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                   <!------- <i class="fab fa-app-store"></i>---->
+                    <h2>Personal Portfolio</h2>
+                    <p>This is a webpage that contains my personal information. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------portfolio-->
+    <div id="portfolio">
+        <div class="conntainer">
+            <h1 class="sub-title">My Achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png.jpg">
+                    <div class="layer">
+                        <h3>Wipro's  TalentNext Proggram</h3>
+                        <p>Certificate for Full Stack Developer.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png.jpg">
+                    <div class="layer">
+                        <h3>ServiceNow</h3>
+                        <p>Certificate for Micro-certification -Welcome to ServiceNow.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png.jpg">
+                    <div class="layer">
+                        <h3>NPTEL</h3>
+                        <p>Certificate for Internet of Things with 86%.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-4.jpg">
+                    <div class="layer">
+                        <h3>HTML-Great Learning</h3>
+                        <p>Font-End Development-HTML.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-5.png.jpg">
+                    <div class="layer">
+                        <h3>NPTEL</h3>
+                        <p>Certificate for Cloud Computing with 57%.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-6.png.jpg">
+                    <div class="layer">
+                        <h3>Learnathon</h3>
+                        <p>Certificate for participating in Learnathon 2022 organized by ICT Academy .</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>cecsboopathir24@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9003612889</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="image/Boopathi13.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+<form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="text" name="Email" placeholder="Your Email" required>
+    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+            </div>
+        </div>
+    </div>
+        <div class="copyright">
+            <p>Copyright © Boopathi@2023</p>
+        </div>
+    </div>
+       <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+       </script>
+       <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+       </script>
+       <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbwOpL8Pf5O-Vey4FxIe9e3XxgtA0pK5umOqv5Fcs1WDmOaUrcSFKUWlEsK7SjiswPTo/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
